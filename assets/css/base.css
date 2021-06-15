@@ -1,0 +1,254 @@
+:root{
+    --white-color:#fff;
+    --white-color:#000;
+    --text-color:#333;
+    --primary-color:#ee4d2d;
+}
+.padding-top-32{
+    padding-top: 32px;
+}
+.background-fb{
+    background-color: #1877f2 !important;
+    color: #fff !important;
+}
+.background-gg{
+    background-color: #ffffff !important;
+    color: #333 !important;
+}
+
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/*Responsive*/
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+/**/
+.grid__column-2{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 16.667%;
+}
+.grid__column-2-4{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 18.99534%;
+}
+.grid__column-2-5{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 19.17458%;
+}
+.grid__column-10{
+    margin-left:5px;
+    margin-right:5px;
+    width: 81.333%;
+}
+/**/
+.text-strong{
+    font-weight: 450;
+}
+.border-right::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2px solid hsla(0,0%,100%,.22);
+    height: 16px;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*animation*/
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes Growth{
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/*Modal*/
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    animation: FadeIn ease-in 0.2s;
+    display: none;
+}
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0, 0.3);
+}
+.modal__body{
+    margin: auto;
+    width: 400px;
+    background-color: #fff;
+    z-index: 1;
+    animation: Growth linear 0.1s;
+}
+/*button*/
+.btn{
+    color: #000;
+    text-align: center;
+    height: 36px;
+    width: 48%;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    padding: 0 32px;
+    background-color: #fff;
+}
+.btn-main{
+    padding: 0 20px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    height: 36px;
+    width: 110px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.btn:active{
+    opacity: 1;
+}
+.btn--primary{
+    color: #fff !important;
+    background-color:#ee4d2d !important;
+}
+.gold-star-rating{
+    color: #ee4d2d;
+}
+.background-white{
+    background-color: #fff;
+}
+/*icon visible*/
+.visible{
+    visibility: hidden;
+}
+
+/*Pagination*/
+.panigation{
+    height: 30px;
+    text-align: center;
+    margin: 30px 0 60px 0;
+}
+.panigation__list{
+    list-style: none;
+    padding: 0;
+    height: 100%;
+}
+.panigation-item{
+    display: inline-flex;
+    height: 100%;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.panigation-item__link{
+    text-decoration: none;
+    color: rgba(0,0,0,0.4);
+    font-size: 2rem;
+    font-weight: 400;
+}
+.panigation-item__link:hover{
+    color: #ee4d2d;
+}
+
+.panigation-item--current,
+.panigation-item--current a{
+    color: #fff;
+    background-color:#ee4d2d ;
+    border-radius: 2px;
+}
+.panigation-item--no-pointer{
+    cursor: default;
+}
+/*img-pament*/
+.master-card{
+    background-image: url(https://i0.wp.com/elpoderdelasideas.com/wp-content/uploads/master_card_nuevo_logo_2016_pentagram_cambios.png?fit=550%2C268) !important;
+}
+.visa-card{
+    background-image: url(https://1.bp.blogspot.com/-IlknywXdOl4/YJz1rP2GcJI/AAAAAAAAGrU/4Xb-QcSjylk2eRQa6AD3PD2IV81pDICCACLcBGAsYHQ/s820/53-532819_visa-vector-logo-visa-debit.png);
+}
+.agribank-card{
+    background-image: url(https://4.bp.blogspot.com/-I8ravxpWSjU/Wtsdy1ptHII/AAAAAAAAFJc/DJwiyXeVOt8CktrEvTfM_p2Tq7Xct-YBwCLcBGAs/s1600/agribankds.jpg);
+}
+.bidv-card{
+    background-image: url(https://th.bing.com/th/id/R2233ed409ee63c2ecb5fd62b98c9d4e6?rik=pTHUdHGr53SyxA&pid=ImgRaw);
+}
+.shopee-card{
+    background-image: url(https://th.bing.com/th/id/Rc3efa02fe36eba12e73ab029d2082baa?rik=bpE5NMZtIArLTQ&pid=ImgRaw);
+}
+.vietel-card{
+    background-image: url(https://th.bing.com/th/id/Rf9381163154fe206fc95f7235b73c3a1?rik=ST4prWyCIB7Q3A&riu=http%3a%2f%2fviettelhcm.vn%2fuploads%2fdich-vu%2fviettel+pay%2funnamed.png&ehk=IqzyYAb4j63ibBGeV2Q9w%2f7NAfqsFA7n%2f3e%2bNJ4kTpY%3d&risl=&pid=ImgRaw);
+}
+.techcombank-card{
+    background-image: url(https://th.bing.com/th/id/R5c842ef45b1b2ab2a2ca96530b17cb54?rik=W014ts%2bPlx%2bJgg&pid=ImgRaw);
+}
+.jcb-card{
+    background-image: url(https://topship.vn/wp-content/uploads/old-images/1536138107_final_3.png);
+}
+.footer__app{
+   width: 100%;
+   display: flex;
+   height: 100px;
+}
+.footer__app-qr-code{
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    box-shadow: 0 0 4px #856262;}
+.footer__app-download{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__app-download-img{
+    width: 100%;
+    height: 24%;
+    padding: 2px;
+    align-self: center;
+}
