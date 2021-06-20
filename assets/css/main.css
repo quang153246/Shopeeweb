@@ -628,6 +628,7 @@
     margin-top: 16px;
     display: none;
     animation: FadeIn ease-out 0.2s;
+    z-index: 100;
 }
 .select-input__list::before{
     content: "";
