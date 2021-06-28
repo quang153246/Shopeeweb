@@ -203,6 +203,9 @@
 }
 
 /*Auth Form*/
+.auth__form--container{
+    z-index: 1;
+}
 .auth-form{
     padding: 20px 32px;
 }
@@ -256,6 +259,7 @@
     background-color: thistle;
     width: 50%;
     line-height: 36px ;
+    padding:0;
 }
 .btn--with-icon{
     display: flex;
