@@ -134,7 +134,8 @@
         flex: 1;
     }
     .mobile-category{
-        display: block;
+        display: block
+        ;
     }
     .padding-on-mobile{
         padding-top: 130px !important;
