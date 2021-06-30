@@ -581,7 +581,7 @@
 }
 /*Category on mobile*/
 .mobile-category{
-
+    display: none;
 }
 .mobile-category__list{
     list-style: none;

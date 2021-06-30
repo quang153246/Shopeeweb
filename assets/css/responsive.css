@@ -132,7 +132,9 @@
     }
     .select-input{
         flex: 1;
-
+    }
+    .mobile-category{
+        display: block;
     }
     .padding-on-mobile{
         padding-top: 130px !important;
