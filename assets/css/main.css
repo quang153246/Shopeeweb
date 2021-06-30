@@ -449,6 +449,7 @@
     color: #222;
 }
 .header__search-option{
+    z-index: 2 ;
     list-style: none;
     position: absolute;
     top: 120%;
@@ -482,7 +483,7 @@
 .header__search-option-list i{
     font-size: 1.2rem;
     padding-left: 6px;
-    padding-right: 10px;
+    padding-right: 6px;
     color: salmon;
 }
 .header__search-icon{
@@ -684,6 +685,7 @@
 /*Home product*/
 .home-product-item{
     margin-top: 10px;
+    height: 100%;
     position: relative;
     border-radius: 2px;
     overflow: hidden;
