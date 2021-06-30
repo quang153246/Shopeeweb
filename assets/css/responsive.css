@@ -1,3 +1,9 @@
+/*PC*/
+@media (min-width:1024px){
+    .home-filter-inPC{
+        display: none !important;
+    }
+}
 /*Mobile & Tablet*/
 @media (max-width:1023px){
     .hide-on-mobile-tablet{
@@ -5,6 +11,15 @@
     }
     .header{
         height: 96px;
+    }
+    .home-filter{
+        justify-content: space-between;
+    }
+    .home-filter__label{
+        display: none;
+    }
+    .home-filter__page{
+        display: none;
     }
     .home-product-item{
         margin-top: 0;
