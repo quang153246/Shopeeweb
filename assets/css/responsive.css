@@ -12,6 +12,9 @@
     .grid__column-2-4{
         margin-bottom: 10px;
     }
+    .footer__app{
+        flex-wrap: wrap;
+    }
 }
 
 /*Tablet*/
@@ -78,14 +81,20 @@
         right: 8px;
     }
     .grid__column-2{
-        width: 25%;
+        display: none;
     }
     .grid__column-10{
-        width: 75%;
+        width: 100%;
+        padding: 0 10px;
     }
     .grid__column-2-4{
         width: 50%;
-        max-height: 300px;
     }
-
+    .home-product{
+        padding: 0 10px;
+    }
+    .footer {
+        padding: 0 10px;
+    }
+    
 }
