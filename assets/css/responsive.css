@@ -95,6 +95,9 @@
     .header__cart-quantity{
         right: 8px;
     }
+    .header__cart-notice{
+        display: none;
+    }
     .grid__column-2{
         display: none;
     }
