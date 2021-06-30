@@ -619,6 +619,7 @@
 }
 .select-input:hover .select-input__list{
     display: block;
+    box-shadow: 1px 1px 0 #ccc;
 }
 .select-input__list{
     position: absolute;
